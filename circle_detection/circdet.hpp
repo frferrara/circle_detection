@@ -32,7 +32,7 @@ void fillmat( const MatrixXd & x, \
 // Solve the Least-Squares Equation
 VectorXd solveLS( const Matrix3d & A, \
 				  const Vector3d & D, \
-				  const double eps = numeric_limits<double>::epsilon() );
+				  const double eps = numeric_limits< double >::epsilon() );
 }
 
 
